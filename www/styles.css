@@ -1,12 +1,122 @@
 .bg{
-    background-color: black;
+
+      
+              margin: 0;
+              padding: 0;
+              height: 100vh;
+              background: linear-gradient(to bottom right, #38072e, #000000, #270b29, #170d05); /* Градиент по углам */
+            
+    /* background-color: black; */
 }
 
-html, body    {
-    background-color: black;
-}
 
-.button {
+
+/* ////////////////////////////////////////////// */
+.button_text {
+    --glow-color: rgb(124, 185, 255);
+    --glow-spread-color: rgba(22, 255, 177, 0.781);
+    --enhanced-glow-color: rgb(0, 247, 119);
+    --btn-color: rgb(97, 255, 210);
+    
+    color: var(--glow-color);
+    font-size: 20px;
+    font-weight: bold;
+    
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+   }
+   
+   button::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   button:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+   button:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+   }
+/* //////////////////////////////////////////// */
+
+
+
+
+/* //////////////////////////////////////////// */
+
+   .button_green {
+    --glow-color: rgb(124, 185, 255);
+    --glow-spread-color: rgba(22, 255, 177, 0.781);
+    --enhanced-glow-color: rgb(0, 247, 119);
+    --btn-color: rgb(97, 255, 210);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+   }
+   
+   button::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   button:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+   button:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+   }
+
+/* //////////////////////////////////////////// */
+
+
+
+/* //////////////////////////////////////////// */
+
+   .button {
     --glow-color: rgb(124, 185, 255);
     --glow-spread-color: rgba(191, 123, 255, 0.781);
     --enhanced-glow-color: rgb(164, 187, 255);
@@ -54,106 +164,82 @@ html, body    {
            0 0 2.5em 2em var(--glow-spread-color),
            inset 0 0 .5em .25em var(--glow-color);
    }
+
+   /* //////////////////////////////////////////// */
+
+   .button_2 {
+    --glow-color: rgb(124, 185, 255);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+    --enhanced-glow-color: rgb(164, 187, 255);
+    --btn-color: rgb(107, 75, 137);
+    border: .25em solid var(--glow-color);
+    padding: 1em 2em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .0em var(--glow-color);
+    position: relative; right: -30px;
+    transition: all 0.3s;
+   }
    
+   button::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
    
-   .move {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.move_buttons {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.centered {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-}
-.left {
-    position: absolute;
-    left: 10%;
-    top: 80%;
-    transform: translate(-50%, -50%);
-}
-.down {
-    position: absolute;
-    left: 60%;
-    top: 80%;
-    transform: translate(-50%, -50%);
+   button:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+   button:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+   }
+
+
+
+
+       
+.lobby-container {
+    --glow-color: rgb(0, 255, 157);
+    --glow-spread-color: rgba(22, 255, 177, 0.781);
+    --enhanced-glow-color: rgb(0, 247, 119);
+    --btn-color: rgb(97, 255, 210);
+
+    border: 2px solid #00ffb7;
+    padding: 20px;
+    margin: 20px auto; 
+    border-radius: 12px; 
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5),
+    0 0 10em .25em var(--glow-color),
+    0 0 1em .10em var(--glow-spread-color),
+    inset 0 0 .50em .25em var(--glow-color);
+    transition: box-shadow 0.3s ease-in-out; 
+    max-width: 400px; 
+    width: 100%; 
+    position: absolute; left: 40px; bottom: 250px;
+
 }
 
-   
-    .container {
-        display: grid;
-        grid-template-columns: repeat(5, 50px);
-        grid-template-rows: repeat(5, 50px);
-        gap: 5px;
-    }
 
-    .cell {
-        width: 50px;
-        height: 50px;
-        background-color: #eee;
-        border: 1px solid #ccc;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #player {
-        background-color: blue;
-        color: white;
-    }
-    .button2 {
-        --glow-color: rgb(255, 255, 255);
-        
-        --enhanced-glow-color: rgb(231, 206, 255);
-        --btn-color: rgb(138, 138, 138);
-        border: .25em solid var(--glow-color);
-        padding: 1em 3em;
-        color: var(--glow-color);
-        font-size: 15px;
-        font-weight: bold;
-        background-color: var(--btn-color);
-        border-radius: 1em;
-        outline: none;
-        box-shadow: 0 0 1em .25em var(--glow-color),
-               0 0 4em 1em var(--glow-spread-color),
-               inset 0 0 .75em .25em var(--glow-color);
-        text-shadow: 0 0 .5em var(--glow-color);
-        position: relative;
-        left: 15%;
-        transition: all 0.3s;
-       }
        
-       button::after {
-        pointer-events: none;
-        content: "";
-        position: absolute;
-        top: 120%;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-color: var(--glow-spread-color);
-        filter: blur(2em);
-        opacity: .7;
-        transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
-       }
-       
-       button:hover {
-        color: var(--btn-color);
-        background-color: var(--glow-color);
-        box-shadow: 0 0 1em .25em var(--glow-color),
-               0 0 4em 2em var(--glow-spread-color),
-               inset 0 0 .75em .25em var(--glow-color);
-       }
-       
-       button:active {
-        box-shadow: 0 0 0.6em .25em var(--glow-color),
-               0 0 2.5em 2em var(--glow-spread-color),
-               inset 0 0 .5em .25em var(--glow-color);
-       }

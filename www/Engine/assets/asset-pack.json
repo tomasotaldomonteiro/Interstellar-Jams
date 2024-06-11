@@ -1,0 +1,148 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/3333.png",
+                "type": "image",
+                "key": "3333"
+            },
+            {
+                "url": "assets/AEsir_Ship.png",
+                "type": "image",
+                "key": "AEsir_Ship"
+            },
+            {
+                "url": "assets/BlackHole.png",
+                "type": "image",
+                "key": "BlackHole"
+            },
+            {
+                "url": "assets/BlackHole_hazard.png",
+                "type": "image",
+                "key": "BlackHole_hazard"
+            },
+            {
+                "url": "Prefab/Cassette_prefabs/BlackHole_prefab.js",
+                "type": "script",
+                "key": "BlackHole_prefab"
+            },
+            {
+                "url": "assets/CassetteBreak.png",
+                "type": "image",
+                "key": "CassetteBreak"
+            },
+            {
+                "url": "Prefab/Cassette_prefabs/CassetteBreak_prefab.js",
+                "type": "script",
+                "key": "CassetteBreak_prefab"
+            },
+            {
+                "url": "assets/dino.png",
+                "key": "dino",
+                "type": "image"
+            },
+            {
+                "url": "assets/earth.png",
+                "type": "image",
+                "key": "earth"
+            },
+            {
+                "url": "Prefab/Map_Prefabs/end_turn_button.js",
+                "type": "script",
+                "key": "end_turn_button"
+            },
+            {
+                "url": "Prefab/Map_Prefabs/End_turn_button_pf.js",
+                "type": "script",
+                "key": "End_turn_button_pf"
+            },
+            {
+                "url": "assets/EndTurnButton.png",
+                "type": "image",
+                "key": "EndTurnButton"
+            },
+            {
+                "url": "assets/LeaveMatchButton.png",
+                "type": "image",
+                "key": "LeaveMatchButton"
+            },
+            {
+                "url": "assets/Meteor.png",
+                "type": "image",
+                "key": "Meteor"
+            },
+            {
+                "url": "assets/meteor_hazard.png",
+                "type": "image",
+                "key": "meteor_hazard"
+            },
+            {
+                "url": "Prefab/hazards_prefabs/Meteor_hazard_prefab.js",
+                "type": "script",
+                "key": "Meteor_hazard_prefab"
+            },
+            {
+                "url": "Prefab/Cassette_prefabs/Meteor_prefab.js",
+                "type": "script",
+                "key": "Meteor_prefab"
+            },
+            {
+                "url": "assets/milkyway.png",
+                "type": "image",
+                "key": "milkyway"
+            },
+            {
+                "url": "assets/Onyxx.png",
+                "type": "image",
+                "key": "Onyxx"
+            },
+            {
+                "url": "Prefab/Player_prefabs/P1_pf.js",
+                "type": "script",
+                "key": "P1_pf"
+            },
+            {
+                "url": "Prefab/Player_prefabs/P2_pf.js",
+                "type": "script",
+                "key": "P2_pf"
+            },
+            {
+                "url": "assets/RemoteControl.png",
+                "type": "image",
+                "key": "RemoteControl"
+            },
+            {
+                "url": "Prefab/Cassette_prefabs/RemoteControl_prefab.js",
+                "type": "script",
+                "key": "RemoteControl_prefab"
+            },
+            {
+                "url": "assets/square.png",
+                "type": "image",
+                "key": "square"
+            },
+            {
+                "url": "assets/StopSign.png",
+                "type": "image",
+                "key": "StopSign"
+            },
+            {
+                "url": "Prefab/Cassette_prefabs/StopSign_prefab.js",
+                "type": "script",
+                "key": "StopSign_prefab"
+            },
+            {
+                "url": "Prefab/Map_Prefabs/Tile.js",
+                "type": "script",
+                "key": "Tile"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

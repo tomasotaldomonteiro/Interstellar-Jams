@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interstellar Jams</title>
+<link rel="stylesheet" href="./styles.css">
+<script src="./Scripts/Validation.js"></script>
+</head>
+<body class="bg">
+
+
+    <div style="position: absolute; top:390px; left:900px;">
+        <form action="/createPlayer" method="post">
+            
+            <input class="button" style="position: absolute; left: 50%; top:20%; transform: translate(-50%);" type="text" id="login">Login<br>
+            <input class="button" style="position: absolute; left: 50%; top:185%; transform: translate(-50%);" type="text" id="password">Password<br>
+
+
+
+            <div style="position: absolute; left: 50%; top:390%; transform: translate(-50%);">
+                <button type="button" class="button" onclick="try2login()"> Login
+            </div>
+            
+        </form>
+
+        <!-- <button class="button" type="button" onclick="register()">test</button> -->
+    </div>
+
+
+
+<div class="container">
+    <!-- <button class="button2" onclick="EndTurn()">EndTurn</button> <br>
+    <button class="button2" onclick="PlaceBlock('right')">PlaceBlock</button> -->
+    <script src="./html_script.js"></script>
+</div>
+
+
+</body>
+</html>

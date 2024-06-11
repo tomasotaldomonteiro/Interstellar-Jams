@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interstellar Jams</title>
+<link rel="stylesheet" href="./styles.css">
+<script src="./Scripts/Menu.js"></script>
+</head>
+<body class="bg">
+
+<div style="position: absolute; right: 50px; top: 50px;">
+    <button type="button" class="button" onclick="creatematch()">Create match</button>
+</div>
+        
+<div style="position: absolute; right: 50px; top: 150px;">
+    <button type="button" class="button" onclick="exit()">Exit</button>
+</div>
+
+<div style="position: absolute; right: 50px; top: 250px;">
+    <img src="LogoPGN.png" alt="LogoPGN">
+</div>
+
+<div class="lobby-container" style="position: absolute; left: 50px; top: 50px;">
+    <h1 class="button_text">Available Game Lobbies</h1>
+    <button class="button" id="refresh-btn" onclick="func()">Refresh List</button>
+    <ul class="button_text" id="lobby-list"></ul>
+</div>
+
+<div style="position: absolute; left: 50px; bottom: 50px;">
+    <audio style="position: absolute; left: 50px; bottom: 50px;" class="button" id="background-music" controls>
+        <source src="Journey_in_Space.mp3" type="audio/mpeg">
+    </audio>
+    <button class="button" onclick="playmusic()">Play Music</button>
+    <button class="button" onclick="pauseMusic()">Pause Music</button>
+</div>
+
+</body>
+</html>

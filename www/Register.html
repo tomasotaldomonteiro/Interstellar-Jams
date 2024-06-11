@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interstellar Jams</title>
+<link rel="stylesheet" href="./styles.css">
+<script src="./Scripts/Validation.js"></script>
+</head>
+<body class="bg">
+
+
+    
+
+    <div>
+        <p style="position: absolute; bottom:600px; right:690px; font-size: 26px;" style="text-align: center;" class="button_text"> Welcome to Interstellar Jams, please register below</p>
+    </div>
+<div class="border">
+    <div style="position: absolute; top:390px; left:900px">
+        
+        <form  action="/createPlayer" method="post">
+        
+            <div>
+                    <P style="position: absolute; bottom:75%; transform: translate(-50%);" class="button_text">Username</P><br>
+                    <input class="button" style="position: absolute; left: 50%; top:20%; transform: translate(-50%);" type="text" id="login">Login<br>
+
+            </div>
+
+            <div>
+                <P style="position: absolute; top:90%; transform: translate(-50%);" class="button_text">Password</P><br>
+                <input class="button" style="position: absolute; left: 50%; top:185%; transform: translate(-50%);" type="password" id="password">Password<br>
+            </div>
+
+            <div style="position: absolute; left: 90px; top: 300px;">
+                
+            
+                <button style="position: absolute; right: 150%; top:0%; transform: translate(-50%);" type="button" class="button_green" onclick="register()"> Register me!<br> 
+
+                <button style="position: absolute; left: -70px; top:0px;" type="button" class="button" onclick="redirect()">Alredy registered?</button><br>
+            
+            </div>
+        
+            
+            
+        </form>
+
+        <!-- <button class="button" type="button" onclick="register()">test</button> -->
+    </div>
+</div>
+
+
+</body>
+</html>
