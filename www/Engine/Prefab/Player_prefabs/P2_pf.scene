@@ -1,0 +1,46 @@
+{
+    "id": "d24a7af5-07fd-447f-b60e-662e8583ca55",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 64,
+        "borderHeight": 64
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "a9954acc-7f16-4849-9804-4cfa8b7011bf",
+            "label": "aEsir_Ship",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 64,
+            "hitArea.height": 64,
+            "texture": {
+                "key": "AEsir_Ship"
+            },
+            "x": 32,
+            "y": 32,
+            "angle": 90
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "playerOwner",
+            "label": "PlayerOwner",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "id": "a8929f0e-117d-4874-9bb8-a80053ed7de8",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 64,
+        "borderHeight": 64
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "72149012-c419-430e-942a-abf71403dfaa",
+            "label": "square",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 64,
+            "hitArea.height": 64,
+            "texture": {
+                "key": "square"
+            },
+            "x": 32,
+            "y": 32
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "tile_id",
+            "label": "Tile_id",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "isitwin",
+            "label": "Isitwin",
+            "tooltip": "",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

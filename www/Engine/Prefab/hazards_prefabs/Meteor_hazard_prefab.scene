@@ -1,0 +1,47 @@
+{
+    "id": "3bf0d3a1-4812-4449-a524-e5c04acb9375",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 64,
+        "borderHeight": 64
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "c589aa49-c79b-4060-91a6-07a18dbb6e06",
+            "label": "meteor_hazard",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 64,
+            "hitArea.height": 64,
+            "texture": {
+                "key": "meteor_hazard"
+            },
+            "x": 32,
+            "y": 32,
+            "scaleX": 0.9,
+            "scaleY": 0.9
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "meteor_id",
+            "label": "Meteor_id",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}
