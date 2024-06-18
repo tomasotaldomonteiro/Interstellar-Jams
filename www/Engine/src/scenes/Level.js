@@ -1719,7 +1719,7 @@ console.log('meteor unpushed');
 });
 //////////////////////////////////////////////////////////////////////
 
-
+this.cassette1sound = this.sound.add('cassette1.mp3');
 
 
 //////////////////////////////////////////////////////////////////////
@@ -2186,6 +2186,9 @@ this.end_turn_button_pf.setTint(0xffffff);
 		console.log('spawning_meteor...')
 		const meteor_prefab = new Meteor_hazard_prefab(this, tile.x, tile.y);
 		this.add.existing(meteor_prefab);
+		this.cassette1sound.play({
+			volume: 0.4 
+		});
 		
 	}
 	winState(tileID){
