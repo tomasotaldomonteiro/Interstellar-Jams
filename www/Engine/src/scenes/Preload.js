@@ -63,6 +63,8 @@ class Preload extends Phaser.Scene {
 		
 
 		this.load.on(Phaser.Loader.Events.COMPLETE, () => this.scene.start("Level"));
+
+		this.load.audio('cassette1.mp3', 'assets/cassette1.mp3');
 	}
 
 	/* END-USER-CODE */
